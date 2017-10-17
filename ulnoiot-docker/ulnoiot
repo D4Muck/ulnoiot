@@ -1,0 +1,8 @@
+#!/bin/bash
+# Example script for starting ulnoiot
+# Modify ULNOIOT_ROOT accordingly to your setup
+#
+# If you run in termux, apply termux-fix shebang onto this script
+
+export ULNOIOT_ROOT="/ulnoiot"
+exec bash "$ULNOIOT_ROOT/run" "$@"
